@@ -1,6 +1,5 @@
 
-public class Yahtzee extends Die6 {
-  private int value;
+public class Yahtzee {
   private Die6 Die1;
   private Die6 Die2;
   private Die6 Die3;
@@ -13,9 +12,6 @@ public class Yahtzee extends Die6 {
     Die4 = new Die6();
     Die5 = new Die6();
   }
-   public void roll() {
-    
-  }
   public void roll(int dieNumber) {
     Die1.roll();
     Die2.roll();
@@ -26,9 +22,7 @@ public class Yahtzee extends Die6 {
   public void summarize() {
       
   }
-  public void toString() {
-      
-  }
 }
+
 
 
