@@ -13,11 +13,12 @@ public class Yahtzee {
     Die5 = new Die6();
   }
   public void roll(int dieNumber) {
-    Die1.roll();
-    Die2.roll();
-    Die3.roll();
-    Die4.roll();
-    Die5.roll();
+    if (dieNumber == 1) {
+      Die1.roll();
+    } else if (dieNumber == 2) {
+      Die1.roll();
+      Die2.roll();
+    }   
   }
   public void summarize() {
       
