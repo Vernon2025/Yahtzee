@@ -36,13 +36,13 @@ public class Yahtzee {
       return stringValue;
   }
   public String summarize() {
-      int[] score = {0, 0, 0, 0, 0};
+      int[] score = {0, 0, 0, 0, 0, 0, 0};
       score[Die1.getValue()]++;
       score[Die2.getValue()]++;
       score[Die3.getValue()]++;
       score[Die4.getValue()]++;
       score[Die5.getValue()]++;
-      return "1-" + score[1] + " , 2-" + score[2] + " , 3-" + score[3] + " , 4-" + score[4] + " , 5-" + score[5]; 
+      return "1-" + score[1] + " , 2-" + score[2] + " , 3-" + score[3] + " , 4-" + score[4] + " , 5-" + score[5] + " , 6-" + score[6];
   }
 }
 
